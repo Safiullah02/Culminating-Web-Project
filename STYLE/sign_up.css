@@ -1,0 +1,37 @@
+/* MY Code*/
+
+body {
+  background-color: #33FFE6;
+  font-family: "Trebuchet MS";
+}
+
+div {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  margin: 18px;
+  text-align: center;
+  font-weight: 
+}
+
+p {
+  color: rgb(100, 100, 200);
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-top: 0px;
+  border: royalblue;
+}
+
+input {
+  
+  font-family: 
+  margin-top: 0px;
+  margin-left: 10px
+}
+
+button {
+  margin-left: 10px
+}
