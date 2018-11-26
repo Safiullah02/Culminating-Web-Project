@@ -40,7 +40,7 @@ div {
 
 h2 {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   margin: 18px;
   text-align: center;
   font-weight: 400;
@@ -54,8 +54,19 @@ p {
 
 }
 
-input { 
-  
+button {
+    border-radius: 15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+button:hover {
+    opacity: 0.8;
 }
 
 .login {
@@ -64,4 +75,14 @@ input {
   padding: 0px;
   font-size: 13px;
   font-style: italic;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    border-radius: 15px;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
