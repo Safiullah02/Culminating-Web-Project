@@ -1,8 +1,37 @@
-/* MY Code*/
+/* WALEED'S Code*/
+* {
+  margin: 0;
+  padding:0;
+}
 
 body {
-  background-color: #33FFE6;
+  background-color: rgb(5, 28, 48);
   font-family: "Trebuchet MS";
+  font-size: 15px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 50px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0 7px;
+}
+
+ul li a:hover {
+color: #33FFE6;
 }
 
 div {
@@ -11,27 +40,28 @@ div {
 
 h2 {
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   margin: 18px;
   text-align: center;
-  font-weight: 
+  font-weight: 400;
 }
 
 p {
-  color: rgb(100, 100, 200);
-  margin-bottom: 0px;
-  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
   margin-top: 0px;
-  border: royalblue;
+  margin-right: 10px;
+
 }
 
-input {
+input { 
   
-  font-family: 
-  margin-top: 0px;
-  margin-left: 10px
 }
 
-button {
-  margin-left: 10px
+.login {
+  text-decoration: none;
+  margin-top: 7px;
+  padding: 0px;
+  font-size: 13px;
+  font-style: italic;
 }
