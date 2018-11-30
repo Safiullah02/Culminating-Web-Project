@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Sign Up Page</title>
-    <link href="signup.css" rel="stylesheet" type="text/css" />
+    <link href="sign_up.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -12,38 +12,34 @@
       
       <nav>
         <ul>
-          <li><a title="Home Page" href=# >Home</a></li>
-          <li><a title="Check Out Your Profile " href=# >Profile</a></li>
+          <li><a title="Home Page" href="index.html" ><h1>Power Up ⚡</h1></a></li>
           <li><a title="Check Us Out" href=# >About Us</a></li>
-          <li><a title="Manage Your Account" href=# >Settings</a></li>
+          <li><a title="Login" class="login" href="login.html">Login</a></li>
         </ul>
       </nav>
       
       <form>
-        <br><h2 title="Sign Up for Our Website">Sign Up for Our Website</h2>
+        <div class="signup-text">
+          <br><h2 title="Sign Up">Sign Up</h2><br>
         
-        <div>
-        
-          <p title="Display Name">Username</p> 
-          <input title="Please Enter a Username" type="text" name="user" placeholder="Enter Username" required>
-          <br><br>
+          <!--<p title="Display Name">Username</p> -->
+          <input title="Please Enter a Username" type="text" name="user" placeholder="Username" required>
+          <br>
           
-          <p title="Email">Email</p> 
-          <input title="Please Enter an Email" type="email" name="email" placeholder="Enter Email" required>
-          <br><br>
+          <!--<p title="Email">Email</p> --> 
+          <input title="Please Enter an Email" type="email" name="email" placeholder="Email" required>
+          <br>
           
-          <p title="Password">Password</p> 
-          <input title="Please Enter a Password" type="password" name="pass" id="pass" placeholder="Enter Password" required>
-          <br><br>
+          <!--<p title="Password">Password</p> -->
+          <input title="Please Enter a Password" type="password" name="pass" id="pass" placeholder="Password" required>
+          <br>
           
-          <p title="Confirm Password">Confirm Password</p> 
+          <!--<p title="Confirm Password">Confirm Password</p> --> 
           <input title="Please Re-Type Password" type="password" name="confpass" id="confpass" placeholder="Re-Type Password" required>
-          <br><br>
+          <br>
+                
+          <button type="submit"><a>Sign Up</a></button><br><br>
 
-          <button type="submit">Sign Up</button><br><br>
-
-          <p class="login" >Already Have an Account <a class="login" href="index.html">Click Here!</a></p>
-          
         </div>		  
      
       </form>
