@@ -1,21 +1,73 @@
-.login {
-    padding: 16px;
-    text-align: center;
+/* WALEED'S Code*/
+* {
+  margin: 0;
+  padding:0;
 }
 
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
+body {
+  background-color: #0d101e;
+  font-family: "Trebuchet MS";
+  font-size: 15px;
 }
 
-input[type=text], input[type=password] {
-    border-radius: 15px;
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #0d101e;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 50px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #989ba1;
+  padding: 0 7px;
+}
+
+ul li a:hover {
+  color: rgb(38, 136, 235);
+  text-decoration: underline;
+}
+
+/*
+ul li a h1 {
+  color: white;
+}
+
+ul li a h1:hover {
+  color: #4183C4;
+}
+*/
+div {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  margin: 18px;
+  text-align: center;
+  font-weight: 400;
+  width: auto;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-right: 10px;
+
 }
 
 button {
@@ -26,14 +78,37 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 50%;
+    width: 25%;
 }
 
 button:hover {
     opacity: 0.8;
 }
 
-.header {
-  text-align: center;
-  font-size: 30px;
+.signup {
+  color: #4183C4;
+  text-decoration: none;
+  margin-top: 7px;
+  padding: 0px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.signup:hover {
+  text-decoration: underline;
+}
+
+/*.login {
+    padding: 16px;
+    text-align: center;
+}*/
+
+input[type=text], input[type=password], input[type=email] {
+    border-radius: 15px;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
